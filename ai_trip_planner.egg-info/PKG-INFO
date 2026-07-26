@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: ai-trip-planner
+Version: 0.1.0
+Summary: Add your description here
+Author: Jhansi Muppalla
+Author-email: muppallajhansi09@gmail.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-python
+
+If you have any conda environment, deacticate it using this command: 
+'''conda deactivate'''
+
+Use this command to check the python versions that you have in your environment: 
+'''uv python list'''
+
+Use this command to install specific version of python: 
+'''uv python install cpython-3.10.19-windows-x86_64-none'''
+
+Use this command to activate an environment in the installed python version: 
+'''uv venv env --python cpython-3.10.19-windows-x86_64-none''' 
+
+Use this command to acticate the env 
+'''C:\Users\19459\AI_Trip_Planner\env\Scripts\activate.bat'''
+
+Use this commab to install any package
+'''uv pip install langchain'''
+
+

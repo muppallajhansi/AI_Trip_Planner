@@ -1,17 +1,39 @@
-If you have any conda environment, deacticate it using this command: 
-'''conda deactivate'''
+# Environment Setup
 
-Use this command to check the python versions that you have in your environment: 
-'''uv python list'''
+If you have any Conda environment activated, deactivate it using:
 
-Use this command to install specific version of python: 
-'''uv python install cpython-3.10.19-windows-x86_64-none'''
+```bash
+conda deactivate
+```
 
-Use this command to activate an environment in the installed python version: 
-'''uv venv env --python cpython-3.10.19-windows-x86_64-none''' 
+Check the Python versions available on your system:
 
-Use this command to acticate the env 
-'''C:\Users\19459\AI_Trip_Planner\env\Scripts\activate.bat'''
+```bash
+uv python list
+```
 
-Use this commab to install any package
-'''uv pip install langchain'''
+Install Python 3.12.12 (if it is not already installed):
+
+```bash
+uv python install cpython-3.12.12-windows-x86_64-none
+```
+
+Create a virtual environment using Python 3.12.12:
+
+```bash
+uv venv env --python cpython-3.12.12-windows-x86_64-none
+```
+
+Activate the virtual environment:
+
+```bash
+C:\Users\19459\AI_Trip_Planner\env\Scripts\activate.bat
+```
+
+Install a package (example):
+
+```bash
+uv pip install langchain
+```
+
+
